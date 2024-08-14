@@ -1,0 +1,65 @@
+.custom-dropdown .dropdown-toggle::after {
+  display: none;
+}
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+/* ตัวอย่างการใช้งาน */
+
+.App-h2{
+  .audiowide-regular {
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  /* ซ่อนลูกศรของปุ่ม dropdown */
+.btn.dropdown-toggle::after {
+  display: none; /* ซ่อนลูกศร */
+}
+
+}
+.text {
+  font-family: 'Prompt', sans-serif;
+}
+
+.App {
+  text-align: center;
+  justify-content: center;
+}
+
+.App-logo {
+  background-color: #000000;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  color: rgb(0, 0, 0);
+}
+
+.App-header {
+  background-color: #000000;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  padding: 0 20px;
+}
+.App-h2{
+  text-align: center;
+  margin-top: 43px;
+  background-color: black;
+  color: white;
+  width: 893;
+  height: 127;
+  padding: 10px 20px;
+  display: inline-block;
+  font-size: 50px;
+}
+.App-button{
+  background-color: #EC7D30;
+  color: black;
+}
+.Footer-footer{
+  width: 100%;
+  height: 60;
+}
